@@ -20,4 +20,4 @@ function declareWinner(fighter1, fighter2, firstAttacker) {
 }
 
 //testing
-console.log(declareWinner(new Fighter("Will", 30, 3), new Fighter("Will", 20, 5), "Ben"));
+console.log(declareWinner(new Fighter("Will", 30, 3), new Fighter("Ben", 20, 5), "Ben"));
